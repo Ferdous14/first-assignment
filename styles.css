@@ -1,0 +1,29 @@
+header {
+    background-color: rgba(229, 84, 115, 0.1);
+    margin-top: 0;
+    padding: 100px;
+}
+
+.header-pic {
+    width: 500px;
+    height: 700px;
+}
+
+.primary-btn {
+    background-color: rgba(229, 84, 115, 1);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
