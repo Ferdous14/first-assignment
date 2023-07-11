@@ -1,3 +1,8 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     background-color: rgba(229, 84, 115, 0.1);
     margin-top: 0;
@@ -15,6 +20,8 @@ header {
     font-size: 20px;
     font-weight: 700;
     padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0;
 }
 
 .banner {
@@ -26,4 +33,41 @@ header {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+}
+
+.featured-title {
+    text-align: center;
+}
+
+.first {
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 364px;
+    height: 438px;
+}
+
+.second {
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 364px;
+    height: 438px;
+}
+
+.third {
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 364px;
+    height: 438px;
+}
+.featured-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.item-des {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.test-one {
+    border-radius: 50px;
 }
