@@ -20,8 +20,9 @@ header {
     font-size: 20px;
     font-weight: 700;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0;
+    border: 0px;
 }
 
 .banner {
@@ -116,13 +117,46 @@ header {
     background-repeat: no-repeat;
     background-position: center top;
     height: 400px;
-    margin-top: 120px;   
+    margin-top: 120px;
 }
-.deal-title{
+
+.deal-title {
     text-align: center;
 }
-.email{
+
+.email {
     width: 500px;
     height: 30px;
     border-radius: 8px;
+}
+
+.footer-part {
+    width: 1722px;
+    height: 400px;
+    background-color: rgba(17, 16, 16, 1);
+
+}
+.foot-des {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+line-height: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.foot-title{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 28px;
+}
+span{
+    color: rgba(229, 84, 115, 1);
+}
+.footer-part{
+    text-align: center;
+    
 }
