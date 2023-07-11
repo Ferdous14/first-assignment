@@ -32,7 +32,7 @@ header {
 .banner-title {
     color: #272727;
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .featured-title {
@@ -56,6 +56,7 @@ header {
     width: 364px;
     height: 438px;
 }
+
 .featured-items {
     display: flex;
     justify-content: center;
@@ -68,6 +69,42 @@ header {
     justify-content: space-evenly;
     padding-left: 10px;
 }
+
 .test-one {
     border-radius: 50px;
+}
+
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social{
+    text-align: center;
+  
+}
+.s-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    border: 0px;
+
+}
+
+.s-description {
+    display: flex;
+    width: 594px;
+    text-align: center;
+    padding-left: 450px;
+    border: 0px;
+}
+.social-pic{
+    width: 342px;
+height: 326px;
+display: flex;
+gap: 24px;
+padding-left: 150px;
 }
